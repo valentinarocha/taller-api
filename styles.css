@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(206, 206, 206);
+}
+
+.card {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-body {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    height: 160px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 5px;
+}
+.card:hover {
+    border-color: rgb(161, 161, 161);
+}
